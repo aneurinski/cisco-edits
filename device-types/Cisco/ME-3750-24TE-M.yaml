@@ -4,6 +4,10 @@ model: ME-3750-24TE-M
 slug: cisco-me-3750-24te-m
 part_number: ME-3750-24TE-M
 is_full_depth: true
+front_image: true
+rear_image: true
+weight: 12.1
+weight_units: lb
 u_height: 1
 console-ports:
   - name: con0
