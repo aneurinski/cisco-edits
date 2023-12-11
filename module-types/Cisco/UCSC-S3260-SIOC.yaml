@@ -1,0 +1,15 @@
+---
+manufacturer: Cisco
+model: UCSC-S3260-SIOC
+part_number: UCSC-S3260-SIOC
+interfaces:
+  - name: Ethernet {module}/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet {module}/2
+    type: 40gbase-x-qsfpp
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
+console-ports:
+  - name: CMC
+    type: rj-45

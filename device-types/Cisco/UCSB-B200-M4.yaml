@@ -5,4 +5,7 @@ slug: cisco-ucsb-b200-m4
 part_number: UCSB-B200-M4
 u_height: 0
 is_full_depth: true
+front_image: true
+weight: 16
+weight_unit: lb
 subdevice_role: child

@@ -5,6 +5,10 @@ slug: cisco-ucs-fi-6454
 part_number: UCS-FI-6454
 u_height: 1
 is_full_depth: true
+front_image: true
+rear_image: true
+weight: 22.2
+weight_unit: lb
 airflow: front-to-rear
 console-ports:
   - name: console

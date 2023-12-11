@@ -6,6 +6,8 @@ part_number: VG204XM
 u_height: 1
 is_full_depth: false
 airflow: passive
+front_image: true
+rear_image: true
 weight: 2.98
 weight_unit: lb
 comments: '[Cisco VG Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/product_data_sheet09186a00801d87f6.html)'

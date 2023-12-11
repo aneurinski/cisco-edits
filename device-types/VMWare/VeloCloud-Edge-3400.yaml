@@ -1,0 +1,52 @@
+---
+manufacturer: VMWare
+model: VeloCloud Edge 3400
+slug: vmware-velocloud-edge-3400
+part_number: VeloCloud-Edge-3400
+u_height: 1
+is_full_depth: false
+front_image: true
+rear_image: true
+weight: 16.6
+weight_unit: lb
+subdevice_role: parent
+airflow: front-to-rear
+console-ports:
+  - name: BMC Console
+    type: rj-45
+  - name: CPU Console
+    type: rj-45
+  - name: USB Console
+    type: usb-micro-b
+interfaces:
+  - name: BMC MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: CPU MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: GE1
+    type: 1000base-t
+  - name: GE2
+    type: 1000base-t
+  - name: GE3
+    type: 1000base-t
+  - name: GE4
+    type: 1000base-t
+  - name: GE5
+    type: 1000base-t
+  - name: GE6
+    type: 1000base-t
+  - name: SFP1
+    type: 10gbase-x-sfpp
+  - name: SFP2
+    type: 10gbase-x-sfpp
+  - name: SFP3
+    type: 10gbase-x-sfpp
+  - name: SFP4
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: Power Supply 1
+    position: '1'
+  - name: Power Supply 2
+    position: '2'

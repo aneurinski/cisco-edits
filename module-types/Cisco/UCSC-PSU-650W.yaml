@@ -1,0 +1,8 @@
+---
+manufacturer: Cisco
+model: UCSC-PSU-650W
+part_number: UCSC-PSU-650W
+power-ports:
+  - name: '{module}'
+    type: iec-60320-c14
+    maximum_draw: 650

@@ -1,0 +1,27 @@
+---
+manufacturer: Cisco
+model: HyperFlex 240C-M5SX
+slug: cisco-hxaf240c-m5sx
+part_number: HXAF240C-M5SX
+u_height: 2
+is_full_depth: true
+front_image: true
+rear_image: true
+weight: 59.5
+weight_unit: lb
+console-ports:
+  - name: Con
+    type: rj-45
+interfaces:
+  - name: LAN 1
+    type: 10gbase-t
+  - name: LAN 2
+    type: 10gbase-t
+  - name: CIMC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU 01
+    position: '1'
+  - name: PSU 02
+    position: '2'

@@ -5,6 +5,10 @@ slug: cisco-ucsb-5108-ac2
 part_number: UCSB-5108-AC2
 u_height: 6
 is_full_depth: true
+front_image: true
+rear_image: true
+weight: 90
+weight_unit: lb
 subdevice_role: parent
 airflow: front-to-rear
 device-bays:
