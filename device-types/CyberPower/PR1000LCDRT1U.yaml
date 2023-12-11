@@ -1,0 +1,48 @@
+---
+manufacturer: CyberPower
+model: PR1000LCDRT1U
+slug: cyberpower-pr1000lcdrt1u
+u_height: 1
+is_full_depth: true
+front_image: true
+rear_image: true
+weight: 35.9
+weight_unit: lb
+power-ports:
+  - name: AC Input
+    type: nema-5-15p
+    maximum_draw: 800
+power-outlets:
+  - name: Non-Critical Load 1
+    type: nema-5-15r
+    power_port: AC Input
+  - name: Non-Critical Load 2
+    type: nema-5-15r
+    power_port: AC Input
+  - name: Non-Critical Load 3
+    type: nema-5-15r
+    power_port: AC Input
+  - name: Critical Load 4
+    type: nema-5-15r
+    power_port: AC Input
+  - name: Critical Load 5
+    type: nema-5-15r
+    power_port: AC Input
+  - name: Critical Load 6
+    type: nema-5-15r
+    power_port: AC Input
+  - name: Surge Only 7
+    type: nema-5-15r
+    power_port: AC Input
+console-ports:
+  - name: EPO
+    type: rj-12
+  - name: Serial Console
+    type: rj-45
+  - name: USB Console
+    type: usb-b
+module-bays:
+  - name: Network Management
+    position: '1'
+  - name: Environment Sensor
+    position: '2'
