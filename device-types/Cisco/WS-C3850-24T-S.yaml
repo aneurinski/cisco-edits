@@ -4,6 +4,11 @@ model: Catalyst 3850-24T-S
 slug: cisco-ws-c3850-24t-s
 part_number: WS-C3850-24T-S
 is_full_depth: false
+comments: '[Catalyst 3850 Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3850-series-switches/datasheet_c78-720918.html)'
+front_image: true
+rear_image: true
+weight: 15.9
+weight_unit: lb
 u_height: 1
 interfaces:
   - name: GigabitEthernet0/0
@@ -60,9 +65,9 @@ interfaces:
 module-bays:
   - name: Network Module
     position: '1'
-  - name: PS-A
+  - name: Power Supply A
     position: A
-  - name: PS-B
+  - name: Power Supply A
     position: B
 console-ports:
   - name: con0

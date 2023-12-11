@@ -11,9 +11,9 @@ comments: IP Services feature set
 module-bays:
   - name: Network Module
     position: '1'
-  - name: PS-A
+  - name: Power Supply A
     position: A
-  - name: PS-B
+  - name: Power Supply A
     position: B
 console-ports:
   - name: con0

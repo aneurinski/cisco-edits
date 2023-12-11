@@ -5,6 +5,12 @@ part_number: N3K-C3048TP-1GE
 slug: cisco-n3k-c3048tp-1ge
 u_height: 1
 is_full_depth: true
+airflow: front-to-rear
+comments: '[Nexus 3048 Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-3000-series-switches/data_sheet_c78-685363.html)\r\nCisco considers the port side to be the rear, default airflow is port side exhaust, but can also be port side intake'
+front_image: true
+rear_image: true
+weight: 20.5
+weight_unit: lb
 console-ports:
   - name: Console
     type: rj-45
@@ -117,7 +123,7 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 module-bays:
-  - name: PS1
+  - name: Power Supply 1
     position: '1'
-  - name: PS2
+  - name: Power Supply 2
     position: '2'

@@ -9,12 +9,22 @@ front_image: true
 rear_image: true
 weight: 10.8
 weight_unit: lb
-comments: "[RPS 2300 Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/redundant-power-system-2300/product_data_sheet0900aecd805bbef6.html"
+comments: '[RPS 2300 Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/redundant-power-system-2300/product_data_sheet0900aecd805bbef6.html)'
 power-outlets:
   - name: Outlet 1
-    type: iec-60320-c14
+    type: other
+  - name: Outlet 2
+    type: other
+  - name: Outlet 3
+    type: other
+  - name: Outlet 4
+    type: other
+  - name: Outlet 5
+    type: other
+  - name: Outlet 6
+    type: other
 module-bays:
-  - name: Power Supply Module 0
-    position: '1'
   - name: Power Supply Module 1
+    position: '1'
+  - name: Power Supply Module 2
     position: '2'

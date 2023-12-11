@@ -14,9 +14,9 @@ console-ports:
   - name: usb0
     type: usb-mini-b
 module-bays:
-  - name: PS-A
+  - name: Power Supply A
     position: A
-  - name: PS-B
+  - name: Power Supply A
     position: B
   - name: FAN1
     position: '1'
