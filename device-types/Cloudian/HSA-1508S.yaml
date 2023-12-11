@@ -1,0 +1,39 @@
+---
+manufacturer: Cloudian
+model: HSA-1508S
+slug: cloudian-hsa-1508s
+part_number: HSA-1508S
+is_full_depth: true
+front_image: true
+rear_image: true
+weight: 62.8
+weight_unit: lb
+u_height: 1
+interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
+  - name: Ethernet 1
+    type: 10gbase-x-sfpp
+  - name: Ethernet 2
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: COM
+    type: de-9
+  - name: Front USB
+    type: usb-a
+  - name: Rear USB 1
+    type: usb-a
+  - name: Rear USB 2
+    type: usb-a
+  - name: VGA Port
+    type: other
+power-ports:
+  - name: Power Supply 1
+    type: iec-60320-c14
+    maximum_draw: 700
+    allocated_draw: 500
+  - name: Power Supply 2
+    type: iec-60320-c14
+    maximum_draw: 700
+    allocated_draw: 500
