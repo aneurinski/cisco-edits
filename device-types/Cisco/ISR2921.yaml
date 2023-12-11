@@ -5,11 +5,17 @@ part_number: ISR2921/K9
 slug: cisco-isr2921
 u_height: 2
 is_full_depth: true
+front_image: true
+rear_image: true
+weight: 29
+weight_units: lb
+comments: '[Cisco ISR 2900 Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/routers/2900-series-integrated-services-routers-isr/data_sheet_c78_553896.html)'
 interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t
   - name: GigabitEthernet0/1
-    type: 1000base-t
+    type: 1000base-x-sfp
+    description: 1G SFP and RJ-45 combo uplink
   - name: GigabitEthernet0/2
     type: 1000base-t
 console-ports:

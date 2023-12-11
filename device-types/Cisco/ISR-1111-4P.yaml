@@ -9,6 +9,7 @@ front_image: true
 rear_image: true
 weight: 4.37
 weight_units: lb
+comments: '[Cisco ISR 1000 Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-integrated-services-routers-isr/datasheet-c78-739512.html)'
 interfaces:
   - name: GigabitEthernet0/0/0
     type: 1000base-x-sfp

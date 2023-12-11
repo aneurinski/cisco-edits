@@ -5,6 +5,11 @@ slug: cisco-asr1001-x
 part_number: ASR1001-X
 u_height: 1
 is_full_depth: true
+front_image: true
+rear_image: true
+weight: 25
+weight_units: lb
+comments: '[Cisco ASR 1000 Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/datasheet-c78-731632.html)'
 interfaces:
   - name: GigabitEthernet0
     type: 1000base-t
@@ -28,10 +33,8 @@ interfaces:
 console-ports:
   - name: con 0
     type: rj-45
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 250
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 250
+module-bays:
+  - name: Power Supply Module 0
+    position: '1'
+  - name: Power Supply Module 1
+    position: '2'
